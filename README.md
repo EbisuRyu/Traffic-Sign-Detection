@@ -1,36 +1,31 @@
-## Môn học: Thị Giác Máy Tính
-**Giảng viên hướng dẫn: TS. Mai Tiến Dũng**
+## Course: Computer Vision
+**Instructor: Dr. Mai Tiến Dũng**
 
+## Team Members
 
-## Danh sách thành viên
+| Full Name             | Student ID | Tasks                                                                                              | Completion Level |
+|-----------------------|------------|----------------------------------------------------------------------------------------------------|------------------|
+| Đặng Hữu Phát         | 22521065   | - Prepared content and wrote the report.<br>- Prepared presentation slides.<br>- Conducted experiments with method 2.<br>- Presented method 2 and experimental results. | 100%             |
+| Nguyễn Hữu Hoàng Long | 22520817   | - Prepared content and wrote the report.<br>- Prepared presentation slides.<br>- Conducted experiments with method 1.<br>- Presented the introduction, problem statement, and method 1. | 100%             |
 
-| Họ và Tên             | MSSV     | Công việc                                                                                          | Mức độ hoàn thành |
-|-----------------------|----------|-----------------------------------------------------------------------------------------------------|-------------------|
-| Đặng Hữu Phát         | 22521065 | - Chuẩn bị nội dung, viết báo cáo.<br>- Chuẩn bị nội dung slide thuyết trình.<br>- Thực nghiệm với phương pháp 2.<br>- Thuyết trình nội dung phương pháp 2 và kết quả thực nghiệm. | 100%              |
-| Nguyễn Hữu Hoàng Long | 22520817 | - Chuẩn bị nội dung viết báo cáo.<br>- Chuẩn bị slide thuyết trình.<br>- Thực nghiệm với phương pháp 1.<br>- Thuyết trình nội dung giới thiệu, phát biểu bài toán và phương pháp 1. | 100%              |
+## Project Description
+This repository contains the code for the Computer Vision course, guided by Dr. Mai Tiến Dũng.
 
-## Mô tả dự án
-Repo này chứa code của môn học Thị Giác Máy Tính, được hướng dẫn bởi TS. Mai Tiến Dũng.
+Details about the project, methods, and experimental results are presented in the following report:
+[Detailed Report](https://drive.google.com/file/d/1K8qI2d9eEjHK_VCfo9tTQO7Vqg3S8gwQ/view)
 
-Chi tiết về đồ án, phương pháp thực hiện, kết quả thực nghiệm được trình bày ở báo cáo sau:
-[Báo cáo chi tiết](https://drive.google.com/file/d/1K8qI2d9eEjHK_VCfo9tTQO7Vqg3S8gwQ/view)
+## How to Run the Project
 
-
-
-## Hướng dẫn chạy dự án
-
-1. Clone repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/EbisuRyu/Traffic_Sign_Detection.git
    ```
 
-### Phương pháp 1: Sử dụng đặc trưng HOG và mô hình phân loại SVM
+### Method 1: Using HOG Features and SVM Classifier
 
-- Quá trình chuẩn bị dữ liệu và huấn luyện mô hình được trình bày trong file `svm_training.ipynb`.
-- Sử dụng mô hình phân loại SVM huấn luyện để detect biển báo được thực hiện trong file `svm_hog_detection.ipynb`.
+- Data preparation and model training process are presented in the `svm_training.ipynb` file.
+- Detection of traffic signs using the trained SVM classifier is demonstrated in the `svm_hog_detection.ipynb` file.
 
-### Phương pháp 2: Sử dụng mô hình Faster RCNN
+### Method 2: Using Faster RCNN Model
 
-- Quá trình huấn luyện và đánh giá mô hình Faster RCNN được trình bày chi tiết trong file `fasterRCNN.ipynb`.
-
-
+- The training and evaluation of the Faster RCNN model are detailed in the `fasterRCNN.ipynb` file.
